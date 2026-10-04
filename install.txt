@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, enable it in tModLoader's Mods menu, then load any world. It snows around spawn, draugr and guards appear, and a dragon arrives soon after.

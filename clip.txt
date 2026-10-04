@@ -1,0 +1,7 @@
+Moments the clip must show:
+[x] 1. Snowy Skyrim forest with falling snow, title "SKYRIM TAKEOVER - Hey, you. You're finally awake." in the first seconds
+[x] 2. Draugr (horned undead) charge in; a guard fights them and quips about the knee; Fus Ro Dah shout blasts them back with a shockwave and popup
+[ ] 3. Thrown cheese wheel rolls and bowls draugr over ("CHEESE!"), skill level-up text
+[x] 4. A dragon arrives, breathes fire, player fights it with Fus Ro Dah and Dragonbone sword
+[x] 5. Dragon dies: soul absorbed effect
+Note: moment 3 (cheese wheel) is weak: the thrown wheel is small and hard to read on screen.
