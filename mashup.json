@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "name": "Skyrim Takeover",
   "tagline": "Bring Skyrim into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Skyrim comes to your world: the land around you turns to snow and draugr replace slimes and zombies.",
+    "Fight the draugr that keep coming from both sides; Whiterun guards show up to help.",
+    "An ancient dragon arrives about every 55 seconds, circling, diving and breathing fire; slay it for gold and its soul.",
+    "Throw the Cheese Wheels that draugr and dragons leave behind to bowl enemies over; create or enter any world to start.",
+    "Your character currently walks and attacks on its own (autopilot) and cannot be hurt."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -74,8 +81,5 @@
     "id": "terraria",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:41.034Z",
-  "notes": [
-    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, enable it in tModLoader's Mods menu, then load any world. It snows around spawn, draugr and guards appear, and a dragon arrives soon after."
-  ]
+  "built_at": "2026-10-05T15:28:41.034Z"
 }
