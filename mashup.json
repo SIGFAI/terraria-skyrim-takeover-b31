@@ -1,0 +1,81 @@
+{
+  "id": "sigf/terraria-skyrim-takeover-b31",
+  "version": "1.0.0",
+  "name": "Skyrim Takeover",
+  "tagline": "Bring Skyrim into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "skyrim",
+      "role": "guest",
+      "label": "Skyrim"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-skyrim-takeover-b31.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "9a19b9f379cb5a093b58fa14dec1b94364fe65b4f711fec797c5c009b71187ac"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-skyrim-takeover-b31/releases/download/v1.0.0/terraria-skyrim-takeover-b31.zip",
+          "sha256": "c5950ff975f82a5ed58b9467bfd163e19fad61398c51b326edd1287de728eb61",
+          "size": 107094
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-skyrim-takeover-b31.zip",
+      "url": "https://github.com/SIGFAI/terraria-skyrim-takeover-b31/releases/download/v1.0.0/terraria-skyrim-takeover-b31.zip",
+      "sha256": "c5950ff975f82a5ed58b9467bfd163e19fad61398c51b326edd1287de728eb61",
+      "size": 107094
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-skyrim-takeover-b31",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:41.034Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, enable it in tModLoader's Mods menu, then load any world. It snows around spawn, draugr and guards appear, and a dragon arrives soon after."
+  ]
+}
